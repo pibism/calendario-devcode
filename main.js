@@ -1,4 +1,4 @@
-var mes_text = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+ï»¿var mes_text = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
 var dia_text = ["Dom", "Lun", "Mar", "Mie", "Juv", "Vie", "Sab"];
 
@@ -59,7 +59,7 @@ function numerar() {
   }
 }
 
-function fechaPorDia(año, dia) {
-  var date = new Date(año, 0);
+function fechaPorDia(aÃ±o, dia) {
+  var date = new Date(aÃ±o, 0);
   return new Date(date.setDate(dia));
 }
